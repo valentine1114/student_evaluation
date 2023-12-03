@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2019094",
+      "name": "学生",
+      "font_class": "xuesheng",
+      "unicode": "e7c0",
+      "unicode_decimal": 59328
+    },
+    {
+      "icon_id": "6342527",
+      "name": "科研系统",
+      "font_class": "keyanxitong",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "10257588",
+      "name": "志愿服务",
+      "font_class": "weibiaoti--",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "10359989",
+      "name": "社会实践",
+      "font_class": "shehuishijian",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "12842809",
+      "name": "w_职员",
+      "font_class": "w_zhiyuan",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "12974864",
+      "name": "总结",
+      "font_class": "zongjie",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "14434718",
+      "name": "成绩",
+      "font_class": "chengji",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "28410591",
+      "name": "评委管理",
+      "font_class": "pingweiguanli",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    }
+  ]
+}

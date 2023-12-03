@@ -1,0 +1,94 @@
+<template>
+    <el-card>
+      <el-header>待评测人员查询</el-header>
+      <!-- 条件表格 -->
+      <div style="margin-bottom: 20px">
+        <el-min>
+          <el-table
+            :data="dataList"
+            border
+            style="width: 100%"
+            highlight-current-row
+          >
+            <el-table-column
+              prop="id"
+              label="序号"
+              min-width="10%"
+              type="index"
+            ></el-table-column>
+  
+            <el-table-column
+              prop="number"
+              label="学号"
+              min-width="15%"
+            ></el-table-column>
+            <el-table-column
+              prop="name"
+              label="姓名"
+              min-width="15%"
+            ></el-table-column>
+  
+            <el-table-column
+              prop="status"
+              label="评测状态"
+              align="center"
+              min-width="15%"
+            >
+              <el-button type="warning" @click="checkStatus"
+                >未通过评测</el-button
+              >
+            </el-table-column>
+  
+            <el-table-column label="操作" min-width="20%" align="center">
+              <el-button type="primary" @click="startReview()">评测</el-button>
+            </el-table-column>
+          </el-table>
+        </el-min>
+      </div>
+  
+      <el-pagination background layout="prev, pager, next" :total="1000">
+      </el-pagination>
+    </el-card>
+  </template>
+    <script>
+  export default {
+    data() {
+      return {
+        dataList: [
+          {
+            id: "1",
+            number: "2200022701",
+            name: "zhangsan",
+          },
+          {
+            id: "2",
+            number: "2200022702",
+            name: "zhangsan",
+          },
+          {
+            id: "3",
+            number: "2200022703",
+            name: "zhangsan",
+          },
+          {
+            id: "4",
+            number: "2200022704",
+            name: "zhangsan",
+          },
+          {
+            id: "5",
+            number: "2200022705",
+            name: "zhangsan",
+          },
+        ],
+      };
+    },
+  
+    methods: {
+      checkStatus() {},
+      startReview() {
+        this.$router.push({ path: `/Scoring/research` });
+      },
+    },
+  };
+  </script>
